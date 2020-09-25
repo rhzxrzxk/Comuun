@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2898A4E9E27BE0D5C0F3F800 /* Pods_Comuun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91A2694240F9D7945B73611 /* Pods_Comuun.framework */; };
+		871169B52103357F00D78458 /* MyPostUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871169B42103357F00D78458 /* MyPostUIViewController.swift */; };
+		871169B72103F14F00D78458 /* AcountMgmtUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871169B62103F14F00D78458 /* AcountMgmtUIViewController.swift */; };
+		8712765120E5CCD9004193BE /* LoginUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8712765020E5CCD9004193BE /* LoginUIViewController.swift */; };
+		8715F80820FAC2E70036C41E /* CreateOrgUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8715F80720FAC2E70036C41E /* CreateOrgUIViewController.swift */; };
+		874C1BBF20C73E3000266802 /* OrgUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874C1BBE20C73E3000266802 /* OrgUIViewController.swift */; };
+		874ED9D620DC521A007E97A0 /* QuestionnaireChoicesUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ED9D520DC521A007E97A0 /* QuestionnaireChoicesUIViewController.swift */; };
+		874F85D1213AC954000C93CF /* OrgModalUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F85D0213AC954000C93CF /* OrgModalUIViewController.swift */; };
+		8758737220FCAC4F003F6554 /* JoinOrgUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758737120FCAC4F003F6554 /* JoinOrgUIViewController.swift */; };
+		8759B1D020D9AD0B0060CD17 /* PostDeadlineUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759B1CF20D9AD0B0060CD17 /* PostDeadlineUIViewController.swift */; };
+		8759B1D220DA67220060CD17 /* PostRemindUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759B1D120DA67220060CD17 /* PostRemindUIViewController.swift */; };
+		877E39B120C248D200B9467C /* FeedUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877E39B020C248D200B9467C /* FeedUIViewController.swift */; };
+		879B537521040BA2005E2953 /* DeleteAcountUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879B537421040BA2005E2953 /* DeleteAcountUIViewController.swift */; };
+		87A1B44C20BBA6BE00857CFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1B44B20BBA6BE00857CFD /* AppDelegate.swift */; };
+		87A1B44E20BBA6BE00857CFD /* TimelineUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1B44D20BBA6BE00857CFD /* TimelineUIViewController.swift */; };
+		87A1B45120BBA6BE00857CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A1B44F20BBA6BE00857CFD /* Main.storyboard */; };
+		87A1B45320BBA6BF00857CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A1B45220BBA6BF00857CFD /* Assets.xcassets */; };
+		87A1B45620BBA6BF00857CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A1B45420BBA6BF00857CFD /* LaunchScreen.storyboard */; };
+		87B7707620F9AF1400802C0D /* CreateOrSearchOrgUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7707520F9AF1400802C0D /* CreateOrSearchOrgUIViewController.swift */; };
+		87C0CFC620CB223A007AACBB /* PostTypeUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0CFC520CB223A007AACBB /* PostTypeUIViewController.swift */; };
+		87C0CFC820CB353D007AACBB /* PostOrgUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0CFC720CB353D007AACBB /* PostOrgUIViewController.swift */; };
+		87D42C5D20CCD4AB00BC183B /* PostTitleUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D42C5C20CCD4AB00BC183B /* PostTitleUIViewController.swift */; };
+		87D42C7D20CD0BDF00BC183B /* InfoShareTextUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D42C7C20CD0BDF00BC183B /* InfoShareTextUIViewController.swift */; };
+		87D42C7F20CD0C6F00BC183B /* TripleChoiceTextUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D42C7E20CD0C6F00BC183B /* TripleChoiceTextUIViewController.swift */; };
+		87D42C8120CD0CB000BC183B /* QuestionnaireTextUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D42C8020CD0CB000BC183B /* QuestionnaireTextUIViewController.swift */; };
+		87EC697D20C8C2F00038B95F /* SettingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC697C20C8C2EF0038B95F /* SettingUIViewController.swift */; };
+		87F7967820BDFCB300F5D5E9 /* PickupUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7967720BDFCB300F5D5E9 /* PickupUIViewController.swift */; };
+		87FEAB0C2102C8D3000BB97E /* ProfileModalUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEAB0B2102C8D3000BB97E /* ProfileModalUIViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E8B75C9D0C7B23FE0290EBB /* Pods-Comuun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comuun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Comuun/Pods-Comuun.debug.xcconfig"; sourceTree = "<group>"; };
+		871169B42103357F00D78458 /* MyPostUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostUIViewController.swift; sourceTree = "<group>"; };
+		871169B62103F14F00D78458 /* AcountMgmtUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountMgmtUIViewController.swift; sourceTree = "<group>"; };
+		8712764F20E5ADC7004193BE /* Comuun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Comuun.entitlements; sourceTree = "<group>"; };
+		8712765020E5CCD9004193BE /* LoginUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIViewController.swift; sourceTree = "<group>"; };
+		8715F80720FAC2E70036C41E /* CreateOrgUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrgUIViewController.swift; sourceTree = "<group>"; };
+		874C1BBE20C73E3000266802 /* OrgUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgUIViewController.swift; sourceTree = "<group>"; };
+		874ED9D520DC521A007E97A0 /* QuestionnaireChoicesUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireChoicesUIViewController.swift; sourceTree = "<group>"; };
+		874F85D0213AC954000C93CF /* OrgModalUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgModalUIViewController.swift; sourceTree = "<group>"; };
+		8758737120FCAC4F003F6554 /* JoinOrgUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinOrgUIViewController.swift; sourceTree = "<group>"; };
+		8759B1CF20D9AD0B0060CD17 /* PostDeadlineUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDeadlineUIViewController.swift; sourceTree = "<group>"; };
+		8759B1D120DA67220060CD17 /* PostRemindUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRemindUIViewController.swift; sourceTree = "<group>"; };
+		877E39B020C248D200B9467C /* FeedUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIViewController.swift; sourceTree = "<group>"; };
+		879B537421040BA2005E2953 /* DeleteAcountUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAcountUIViewController.swift; sourceTree = "<group>"; };
+		87A1B44820BBA6BE00857CFD /* Comuun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comuun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A1B44B20BBA6BE00857CFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87A1B44D20BBA6BE00857CFD /* TimelineUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineUIViewController.swift; sourceTree = "<group>"; };
+		87A1B45020BBA6BE00857CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87A1B45220BBA6BF00857CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87A1B45520BBA6BF00857CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87A1B45720BBA6BF00857CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B7707520F9AF1400802C0D /* CreateOrSearchOrgUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrSearchOrgUIViewController.swift; sourceTree = "<group>"; };
+		87C0CFC520CB223A007AACBB /* PostTypeUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTypeUIViewController.swift; sourceTree = "<group>"; };
+		87C0CFC720CB353D007AACBB /* PostOrgUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostOrgUIViewController.swift; sourceTree = "<group>"; };
+		87D42C5C20CCD4AB00BC183B /* PostTitleUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTitleUIViewController.swift; sourceTree = "<group>"; };
+		87D42C7C20CD0BDF00BC183B /* InfoShareTextUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoShareTextUIViewController.swift; sourceTree = "<group>"; };
+		87D42C7E20CD0C6F00BC183B /* TripleChoiceTextUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleChoiceTextUIViewController.swift; sourceTree = "<group>"; };
+		87D42C8020CD0CB000BC183B /* QuestionnaireTextUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireTextUIViewController.swift; sourceTree = "<group>"; };
+		87EC697C20C8C2EF0038B95F /* SettingUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUIViewController.swift; sourceTree = "<group>"; };
+		87F7967720BDFCB300F5D5E9 /* PickupUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupUIViewController.swift; sourceTree = "<group>"; };
+		87FEAB0B2102C8D3000BB97E /* ProfileModalUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModalUIViewController.swift; sourceTree = "<group>"; };
+		C91A2694240F9D7945B73611 /* Pods_Comuun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Comuun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF66A4929BC7672960E6672 /* Pods-Comuun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comuun.release.xcconfig"; path = "Pods/Target Support Files/Pods-Comuun/Pods-Comuun.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87A1B44520BBA6BE00857CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2898A4E9E27BE0D5C0F3F800 /* Pods_Comuun.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE03D90515868CBDDF35937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91A2694240F9D7945B73611 /* Pods_Comuun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		517212DAF1A6247D6611FA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E8B75C9D0C7B23FE0290EBB /* Pods-Comuun.debug.xcconfig */,
+				DFF66A4929BC7672960E6672 /* Pods-Comuun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87A1B43F20BBA6BE00857CFD = {
+			isa = PBXGroup;
+			children = (
+				87A1B44A20BBA6BE00857CFD /* Comuun */,
+				87A1B44920BBA6BE00857CFD /* Products */,
+				517212DAF1A6247D6611FA28 /* Pods */,
+				1EE03D90515868CBDDF35937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87A1B44920BBA6BE00857CFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87A1B44820BBA6BE00857CFD /* Comuun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87A1B44A20BBA6BE00857CFD /* Comuun */ = {
+			isa = PBXGroup;
+			children = (
+				8712764F20E5ADC7004193BE /* Comuun.entitlements */,
+				87A1B44B20BBA6BE00857CFD /* AppDelegate.swift */,
+				8712765020E5CCD9004193BE /* LoginUIViewController.swift */,
+				87EC697C20C8C2EF0038B95F /* SettingUIViewController.swift */,
+				874C1BBE20C73E3000266802 /* OrgUIViewController.swift */,
+				87FEAB0B2102C8D3000BB97E /* ProfileModalUIViewController.swift */,
+				874F85D0213AC954000C93CF /* OrgModalUIViewController.swift */,
+				871169B42103357F00D78458 /* MyPostUIViewController.swift */,
+				871169B62103F14F00D78458 /* AcountMgmtUIViewController.swift */,
+				879B537421040BA2005E2953 /* DeleteAcountUIViewController.swift */,
+				87B7707520F9AF1400802C0D /* CreateOrSearchOrgUIViewController.swift */,
+				8715F80720FAC2E70036C41E /* CreateOrgUIViewController.swift */,
+				8758737120FCAC4F003F6554 /* JoinOrgUIViewController.swift */,
+				87A1B44D20BBA6BE00857CFD /* TimelineUIViewController.swift */,
+				87C0CFC720CB353D007AACBB /* PostOrgUIViewController.swift */,
+				87C0CFC520CB223A007AACBB /* PostTypeUIViewController.swift */,
+				87D42C5C20CCD4AB00BC183B /* PostTitleUIViewController.swift */,
+				87D42C7C20CD0BDF00BC183B /* InfoShareTextUIViewController.swift */,
+				87D42C7E20CD0C6F00BC183B /* TripleChoiceTextUIViewController.swift */,
+				87D42C8020CD0CB000BC183B /* QuestionnaireTextUIViewController.swift */,
+				8759B1CF20D9AD0B0060CD17 /* PostDeadlineUIViewController.swift */,
+				8759B1D120DA67220060CD17 /* PostRemindUIViewController.swift */,
+				874ED9D520DC521A007E97A0 /* QuestionnaireChoicesUIViewController.swift */,
+				87F7967720BDFCB300F5D5E9 /* PickupUIViewController.swift */,
+				877E39B020C248D200B9467C /* FeedUIViewController.swift */,
+				87A1B44F20BBA6BE00857CFD /* Main.storyboard */,
+				87A1B45220BBA6BF00857CFD /* Assets.xcassets */,
+				87A1B45420BBA6BF00857CFD /* LaunchScreen.storyboard */,
+				87A1B45720BBA6BF00857CFD /* Info.plist */,
+			);
+			path = Comuun;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87A1B44720BBA6BE00857CFD /* Comuun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A1B45A20BBA6BF00857CFD /* Build configuration list for PBXNativeTarget "Comuun" */;
+			buildPhases = (
+				D81FBDFFA195B446722C138F /* [CP] Check Pods Manifest.lock */,
+				87A1B44420BBA6BE00857CFD /* Sources */,
+				87A1B44520BBA6BE00857CFD /* Frameworks */,
+				87A1B44620BBA6BE00857CFD /* Resources */,
+				9EBE657AF9ED9CBB36F7B390 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Comuun;
+			productName = Comuun;
+			productReference = 87A1B44820BBA6BE00857CFD /* Comuun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87A1B44020BBA6BE00857CFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "田中尊";
+				TargetAttributes = {
+					87A1B44720BBA6BE00857CFD = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 87A1B44320BBA6BE00857CFD /* Build configuration list for PBXProject "Comuun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87A1B43F20BBA6BE00857CFD;
+			productRefGroup = 87A1B44920BBA6BE00857CFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A1B44720BBA6BE00857CFD /* Comuun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87A1B44620BBA6BE00857CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A1B45620BBA6BF00857CFD /* LaunchScreen.storyboard in Resources */,
+				87A1B45320BBA6BF00857CFD /* Assets.xcassets in Resources */,
+				87A1B45120BBA6BE00857CFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EBE657AF9ED9CBB36F7B390 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Comuun/Pods-Comuun-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Comuun/Pods-Comuun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81FBDFFA195B446722C138F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Comuun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A1B44420BBA6BE00857CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A1B44E20BBA6BE00857CFD /* TimelineUIViewController.swift in Sources */,
+				87EC697D20C8C2F00038B95F /* SettingUIViewController.swift in Sources */,
+				8759B1D020D9AD0B0060CD17 /* PostDeadlineUIViewController.swift in Sources */,
+				87F7967820BDFCB300F5D5E9 /* PickupUIViewController.swift in Sources */,
+				87FEAB0C2102C8D3000BB97E /* ProfileModalUIViewController.swift in Sources */,
+				8759B1D220DA67220060CD17 /* PostRemindUIViewController.swift in Sources */,
+				8715F80820FAC2E70036C41E /* CreateOrgUIViewController.swift in Sources */,
+				87C0CFC620CB223A007AACBB /* PostTypeUIViewController.swift in Sources */,
+				877E39B120C248D200B9467C /* FeedUIViewController.swift in Sources */,
+				87D42C7D20CD0BDF00BC183B /* InfoShareTextUIViewController.swift in Sources */,
+				87D42C7F20CD0C6F00BC183B /* TripleChoiceTextUIViewController.swift in Sources */,
+				871169B52103357F00D78458 /* MyPostUIViewController.swift in Sources */,
+				87A1B44C20BBA6BE00857CFD /* AppDelegate.swift in Sources */,
+				874ED9D620DC521A007E97A0 /* QuestionnaireChoicesUIViewController.swift in Sources */,
+				87C0CFC820CB353D007AACBB /* PostOrgUIViewController.swift in Sources */,
+				87B7707620F9AF1400802C0D /* CreateOrSearchOrgUIViewController.swift in Sources */,
+				879B537521040BA2005E2953 /* DeleteAcountUIViewController.swift in Sources */,
+				8712765120E5CCD9004193BE /* LoginUIViewController.swift in Sources */,
+				874C1BBF20C73E3000266802 /* OrgUIViewController.swift in Sources */,
+				874F85D1213AC954000C93CF /* OrgModalUIViewController.swift in Sources */,
+				87D42C5D20CCD4AB00BC183B /* PostTitleUIViewController.swift in Sources */,
+				87D42C8120CD0CB000BC183B /* QuestionnaireTextUIViewController.swift in Sources */,
+				871169B72103F14F00D78458 /* AcountMgmtUIViewController.swift in Sources */,
+				8758737220FCAC4F003F6554 /* JoinOrgUIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87A1B44F20BBA6BE00857CFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A1B45020BBA6BE00857CFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87A1B45420BBA6BF00857CFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87A1B45520BBA6BF00857CFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87A1B45820BBA6BF00857CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87A1B45920BBA6BF00857CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87A1B45B20BBA6BF00857CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8B75C9D0C7B23FE0290EBB /* Pods-Comuun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Comuun/Comuun.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52MSNLXSVH;
+				INFOPLIST_FILE = Comuun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhzxrzxk.Comuun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87A1B45C20BBA6BF00857CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFF66A4929BC7672960E6672 /* Pods-Comuun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Comuun/Comuun.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52MSNLXSVH;
+				INFOPLIST_FILE = Comuun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rhzxrzxk.Comuun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87A1B44320BBA6BE00857CFD /* Build configuration list for PBXProject "Comuun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A1B45820BBA6BF00857CFD /* Debug */,
+				87A1B45920BBA6BF00857CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A1B45A20BBA6BF00857CFD /* Build configuration list for PBXNativeTarget "Comuun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87A1B45B20BBA6BF00857CFD /* Debug */,
+				87A1B45C20BBA6BF00857CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87A1B44020BBA6BE00857CFD /* Project object */;
+}

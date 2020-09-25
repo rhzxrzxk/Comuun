@@ -1,0 +1,6 @@
+framework module Pods_Comuun {
+  umbrella header "Pods-Comuun-umbrella.h"
+
+  export *
+  module * { export * }
+}
